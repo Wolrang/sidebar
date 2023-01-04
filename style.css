@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.sm-only {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 3px solid yellow;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.gnb-list {
+  display: flex;
+  width: 300px;
+  position: relative;
+  left: 40px;
+}
+
+.gnb-item {
+  margin-right: 20px;
+}
+
+.gnb-item a {
+  color: #000;
+  font-weight: bold;
+  transition: all 300ms ease-in-out;
+}
+
+.gnb-item:last-child a {
+  margin-right: 0;
+}
+
+.gnb-item a:hover {
+  color: red;
+}
+
+.lnb-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.lnb-list {
+  display: flex;
+  background-color: rgb(231, 34, 34);
+  padding: 20px;
+}
+
+.lnb-item a {
+  color: #fff;
+  margin-right: 20px;
+  transition: all 300ms ease-in-out;
+}
+
+.lnb-item:last-child a {
+  margin-right: 0;
+}
+
+.lnb-item a:hover {
+  color: yellow
+}
+
+.background {
+  height: 600px;
+  background-image: url(./images/back.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.post-card-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.post-card-1 p:hover {
+ background-color: #3f4150;
+}
+
+.food1 {
+  width: 350px;
+  height: 350px;
+}
+
+.food1 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.food1 p {
+  text-align: center;
+  border-radius: 5%;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 5px 5px 10px #555;
+  margin-top: 5px;
+}
+
+.post-card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-card-2 p:hover {
+  background-color: #3f4150;
+ }
+
+.food2 {
+  width: 350px;
+  height: 350px;
+}
+
+.food2 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.food2 p {
+  text-align: center;
+  border-radius: 5%;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 5px 5px 10px #555;
+  margin-top: 5px;
+}
+
+.post-card-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-card-3 p:hover {
+  background-color: #3f4150;
+ }
+
+.food3 {
+  width: 350px;
+  height: 350px;
+}
+
+.food3 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.food3 p {
+  text-align: center;
+  border-radius: 5%;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 5px 5px 10px #555;
+  margin-top: 5px;
+}
+
+.fixed-back {
+  border-top: 3px solid yellow;
+  text-align: center;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+  z-index: 200;
+  background-color: #fff;
+}
+
+.fixed-back-img img {
+  width: 200px;
+  height: 200px;
+  margin-right: 80px;
+  border-radius: 50%;
+}
+
+.fixed-back-img:last-child img {
+  margin-right: 0;
+}
+
+.fixed-back-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.fixed-back-txt div {
+  margin-right: 200px;
+}
+
+.txt1 {
+  position: relative;
+  left: 30px;
+}
+
+.txt2 {
+  position: relative;
+  left: 40px;
+}
+
+.txt3 {
+  position: relative;
+  left: 70px;
+}
+
+.footer-wrapper {
+  height: 150px;
+  padding: 10px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper p{
+  color: #fff;
+  padding: 5px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 60px;
+}
+
+.footer-info1 {
+  margin-right: 60px;
+}
+
+.footer-info1 p:hover  {
+  color: yellow;
+}
+
+.footer-list {
+  display: flex;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+.footer-list i {
+  color: red;
+  font-size: 28px;
+}
+
+.footer-item {
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.footer-item:nth-child(1) {
+  padding: 8px 10px;
+}
+
+.footer-item:nth-child(2) {
+  padding: 8px 9px;
+}
+
+.footer-item:nth-child(3) {
+  padding: 9px 7px;
+}
+
+.footer-item:nth-child(4) {
+  padding: 9px 5px;
+}
+
+@media screen and (max-width:1200px) {
+  
+}
+
+@media screen and (max-width:768px) {
+  .sm-hidden {
+    display: none;
+  }
+
+  .sm-only {
+    display: block;
+  }
+
+  .sm-only i {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+
+  nav {
+    border: none;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 32px 20px;
+    transform: translate(-200px,0);
+    z-index: 200;
+    transition: transform 500ms ease-in-out
+  }
+
+  .sidebar.is-active {
+    transform: translate(0,0);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(63, 65, 80, 0.5);
+    z-index: 100;
+    display: none;
+  }
+
+  .overlay.is-active {
+    display: block; 
+  } 
+
+  .side-menu-item a {
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    height: 36px;
+    color: #3f4150;
+  }
+
+  .lnb-list {
+    justify-content: center;
+  }
+
+  .background {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .post-card-1, .post-card-2, .post-card-3 {
+    flex-direction: column;
+    position: relative;
+    right: 60px;
+  }
+
+  .food1 img {
+    width: 500px;
+  }
+
+  .food1 p {
+    width: 500px;
+  }
+
+  .food2 img {
+    width: 500px;
+  }
+
+  .food2 p {
+    width: 500px;
+  }
+
+  .food3 img {
+    width: 500px;
+  }
+
+  .food3 p {
+    width: 500px;
+  }
+
+  .fixed-back-img {
+    position: relative;
+    left: 50px;
+  }
+
+  .fixed-back-img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .fixed-back-txt {
+    position: relative;
+    left: 40px;
+  }
+
+  .fixed-back-txt p {
+    width: 100px;
+  }
+
+  .txt1 {
+    left: 185px;
+  }
+
+  .txt2 {
+    left: 70px;
+  }
+
+  .txt3 {
+    left: -45px;
+  }
+
+  .footer-wrapper {
+    height: 300px;
+    flex-wrap: wrap;
+  }
+
+  .footer-info {
+    margin: 0 auto;
+  }
+
+  .footer-info1 {
+    position: relative;
+    right: 80px;
+  }
+
+  .footer-info2 {
+    text-align: right;
+    position: relative;
+    left: 80px;
+  }
+
+  .footer-list {
+    margin: 0 auto;
+  }
+} 

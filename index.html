@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <title>sidebar실습</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- awesome font -->
+  <script src="https://kit.fontawesome.com/74645f1520.js" crossorigin="anonymous"></script>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <h1 class="logo">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="logo">
+          </a>
+        </h1>
+        <div class="sm-only gnb-icon-button">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <h2 class="visually-hidden">메뉴</h2>
+        <ul class="gnb-list sm-hidden">
+          <li class="gnb-item">
+            <a href="">menu1</a>
+          </li>
+          <li class="gnb-item">
+            <a href="">menu2</a>
+          </li>
+          <li class="gnb-item">
+            <a href="">menu3</a>
+          </li>
+          <li class="gnb-item">
+            <a href=""><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="lnb-wrapper">
+      <ul class="lnb-list">
+        <li class="lnb-item">
+          <a href="">Menu</a>
+        </li>
+        <li class="lnb-item">
+          <a href="">Store</a>
+        </li>
+        <li class="lnb-item">
+          <a href="">What's New</a>
+        </li>
+        <li class="lnb-item">
+          <a href="">Story</a>
+        </li>
+      </ul>
+    </div>
+
+    <aside class="sidebar sm-only">
+      <nav class="sidebar-nav">
+        <h2 class="visually-hidden">메뉴</h2>
+        <div class="sidebar-menu">
+          <ul class="side-menu-list">
+            <li class="side-menu-item">
+              <a href="">Menu</a>
+            </li>
+            <li class="side-menu-item">
+              <a href="">Store</a>
+            </li>
+            <li class="side-menu-item">
+              <a href="">What's New</a>
+            </li>
+            <li class="side-menu-item">
+              <a href="">Story</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+
+    <div class="overlay"></div>
+
+    <main>
+      <section class="background"></section>
+
+      <section class="post-card-1">
+        <div class="food1">
+          <img src="./images/food.jpeg" alt="food1">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+
+        <div class="food1">
+          <img src="./images/food.jpeg" alt="food1">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+
+        <div class="food1">
+          <img src="./images/food.jpeg" alt="food1">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+      </section>
+
+       <section class="post-card-2">
+         <div class="food2">
+          <img src="./images/food2.jpeg" alt="food2">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+
+        <div class="food2">
+          <img src="./images/food2.jpeg" alt="food2">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+
+        <div class="food2">
+          <img src="./images/food2.jpeg" alt="food2">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+      </section>
+
+      <section class="post-card-3">
+         <div class="food3">
+          <img src="./images/food3.jpeg" alt="food3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+
+        <div class="food3">
+          <img src="./images/food3.jpeg" alt="food3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+
+        <div class="food3">
+          <img src="./images/food3.jpeg" alt="food3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sint!</p>
+        </div>
+      </section>
+
+      <section class="fixed-back">
+        <div class="fixed-back-img">
+          <a href="">
+            <img src="./images/side1.png" alt="side1">
+          </a>
+          <a href="">
+            <img src="./images/side2.jpeg" alt="side2">
+          </a>
+          <a href="">
+            <img src="./images/top.jpeg" alt="top">
+          </a>
+        </div>
+
+        <div class="fixed-back-txt">
+          <div class="txt1">
+            <P>품질이야기</P>
+          </div>
+          <div class="txt2">
+            <p>McDelivery</p>
+          </div>
+          <div class="txt3">
+            <P>TOP</P>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-info">
+          <div class="footer-info1">
+            <a href="">
+              <P>개인정보 처리방침</P>
+            </a>
+            <a href="">
+              <p>위치정보 이용약관</P>
+            </a>
+            <a href="">
+              <P>사이트맵</P>
+            </a>
+            <a href="">
+              <P>임차문의</P>
+            </a>
+          </div>
+          <div class="footer-info2">
+            <P>한국맥도날드(유)</P>
+            <p>대표이사 : 김상현</P>
+            <P>사업자 등록번호 : 127-82-66813</P>
+            <P>전화주문 : 1600-5252</P>
+          </div>
+        </div>
+
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="footer-item">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li class="footer-item">
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </li>
+          <li class="footer-item">
+            <a href=""><i class="fa-regular fa-handshake"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+  <script src="./js/sidebar.js"></script>
+</body>
+</html>
